@@ -1,0 +1,118 @@
+#Bodytext {
+    
+    font-family:monospace;
+    font-size: 20px;
+    color: #908079;
+}
+
+a { color: #5a4834;}
+
+
+
+#div1 {
+    
+    width: 100vw;
+    height:100vh;
+    left:0;
+    top:0%;
+    position:absolute;
+    z-index:0;
+    margin:0px;
+    border:0px;
+    overflow: hidden;
+    
+}
+#div2{
+    
+    
+    width: 100vw;
+    height:100vh;
+    left:100%;
+    top:0%;
+    position:absolute;
+    z-index:0;
+    margin:0px;
+    border:0px;
+    overflow: hidden;
+    
+}
+
+#div3{
+    
+    
+    width: 100vw;
+    height:100vh;
+    left:200%;
+    top:0%;
+    position:absolute;
+    z-index:0;
+    margin:0px;
+    border:0px;
+    overflow: hidden;
+    
+    
+}
+
+
+#div4 {
+    
+    
+    width: 100vw;
+    height:100vh;
+    left:300%;
+    top:0%;
+    position:absolute;
+    z-index:0;
+    margin:0px;
+    border:0px;
+    overflow: hidden;
+}
+
+.left{
+    
+    z-index: 2;
+    position: absolute;
+    top:50%;
+    left:100px;
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 12px;
+    
+}
+
+
+
+.right{
+    
+    z-index: 2;
+    position:absolute;
+    top:50%;
+    right:100px;
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 12px;
+}
+
+
+.noBorder{
+    
+    
+position: absolute;
+top:880px; 
+left:490px;
+z-index: 3;
+
+}
+
+
+
+ /* Hide the elements by default */
+    .hidden-elements {
+        display: none;
+    }
+    
+    /* Show the elements when hovering over the container */
+    .container:hover .hidden-elements {
+        display: block;
+        z-index: 2
+    }
